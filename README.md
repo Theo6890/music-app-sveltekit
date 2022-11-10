@@ -1,38 +1,26 @@
-# create-svelte
+# Music App
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A simple music app to get more familiar with SvelteKit.
 
-## Creating a project
+## V1
 
-If you're seeing this, you've probably already done this step. Congrats!
+Simple interface for users to search and play music
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- Fetch data from TheAudioDB:
+  - Homepage: TRENDING, TOP 50 SONGS, TOP 10 ALBUMS
+- Play music from a bottom bar
+- Top searchbar
+- Display data with dynamic loading (stream) in cards
+- Loader animation using UI layouts
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## V2
 
-## Developing
+Secure log in and backoffice to manage NFT creation from website
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Magic link log in for users
+- GitHub / Google log in for backoffice
+- Backoffice to NFT repository per artists & albums + attach NFT addresses
 
-```bash
-npm run dev
+## V3
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- CRUD artists and albums and songs (songs, pictures & videos upload & all other details): artists can be added from outside of TheAudioDB
